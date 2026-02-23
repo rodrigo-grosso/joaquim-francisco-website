@@ -1,0 +1,16 @@
+{
+  "name": "joaquim-francisco-website",
+  "version": "1.0.0",
+  "description": "Website for Joaquim Francisco - Psychology and Clinical Services",
+  "scripts": {
+    "build": "echo 'No build needed for static site'",
+    "dev": "python3 -m http.server 3000"
+  },
+  "keywords": [
+    "psychology",
+    "clinical",
+    "joaquim"
+  ],
+  "author": "Rodrigo Grosso",
+  "license": "MIT"
+}

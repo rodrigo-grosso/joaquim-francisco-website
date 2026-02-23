@@ -1,0 +1,20 @@
+name = "joaquim-francisco-website"
+type = "javascript"
+account_id = ""
+workers_dev = true
+routes = []
+zone_id = ""
+compatibility_date = "2024-01-01"
+
+[env.production]
+routes = []
+zone_id = ""
+
+[build]
+command = "npm run build"
+cwd = "./"
+watch_paths = []
+
+[build.upload]
+format = "modules"
+main = "./index.html"
